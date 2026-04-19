@@ -7,6 +7,20 @@ Built using STM32 Micro Controller and more...
 
 Using load cells in the corners of our board, the center of mass of the user is calculated and used to control motors to tilt the marble maze. Once the user competes the maze, a beam break sensor is triggered and the time the user takes to complete the maze is displayed. 
 
+## Feature List
+- Center of Mass Tracking 
+- Wireless Communication Via WiFi 
+- Timed Gameplay 
+- Taring Abilities to Reset Between Each User
+
+## How to Play
+1. Once tared, slowly step onto the fitness board. 
+2. Slowly shift your bodyweight to guide the marble to the finishing position. 
+3. Retrieve the marble from the ending position and view your time.
+
+## SYSTEM ARCHITECTURE
+<img width="838" height="560" alt="image" src="https://github.com/user-attachments/assets/a4c37210-49f7-466d-b0ef-064751423cb1" />
+
 ## Authors
 - [Achal Khatri](https://github.com/akkik27)
 - [Andrew Leonard](https://github.com/andrewleonard3)
