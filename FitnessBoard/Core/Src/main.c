@@ -155,7 +155,7 @@ int main(void) {
 	//Initial state
 	state_t status = RDY;
 	int8_t buffer[2] = { 0 };
-	double weight1, weight2, weight3, weight4;
+	float weight1, weight2, weight3, weight4;
 	/* USER CODE END 2 */
 
 	/* Infinite loop */
