@@ -1,0 +1,6 @@
+../Core/Src/MAX7219Driver.c:69:6:Matrix_Clear	24	static
+../Core/Src/MAX7219Driver.c:80:6:Matrix_Clear_Cell	24	static
+../Core/Src/MAX7219Driver.c:97:6:Matrix_Init	16	static
+../Core/Src/MAX7219Driver.c:108:6:Write_Char	32	static
+../Core/Src/MAX7219Driver.c:125:6:Write_Pixel	32	static
+../Core/Src/MAX7219Driver.c:144:6:Six_Seven	16	static
