@@ -47,6 +47,7 @@ In order to run, edit, and compile this code you will need to have **STM32CubeID
 [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)
 
 Once at the landing page, click on the **Get Software** button and follow the instructions that come up on your screen.
+![STMCubeIDE download](images/STMCube.png)
 
 > **NOTE:** If you are a non-Mac user, you will need to install a second software package to launch and edit the configuration of your microcontroller. See [Software: Non-Mac Users Only](#111-software-non-mac-users-only) for more details.
 
@@ -57,6 +58,7 @@ Due to the way STM32CubeIDE is packaged for non-Mac systems, you will be unable 
 [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)
 
 Once at the landing page, click on the **Get Software** button and follow the instructions that come up on your screen.
+![STMCubeMX download](images/STMMX.png)
 
 ## 1.2 Hardware
 
@@ -82,6 +84,9 @@ The required connections are:
 - 1 × ESP32-C6 module to microcontroller
 
 For specific information regarding the pins used to connect everything, refer to `FitnessBoard.ioc`.
+
+When finished, the interior of your board should look like this:
+![Fitness board interior]()
 
 ### 1.2.2 Labyrinth Hardware
 
