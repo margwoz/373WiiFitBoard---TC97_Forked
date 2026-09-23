@@ -116,11 +116,12 @@ The required connections are:
 For specific information regarding the pins used to connect everything, refer to `maze_test.ioc`.
 
 When finished, the your labyrinth should look like this:
-![Fitness board interior](images/AnnotatedMazeSetup.png)
+![Laybrinth example](images/AnnotatedMazeSetup.png)
 
 ### 1.2.3 Hardware System Architecture
 
-The original document includes a hardware system architecture diagram in this section.
+The final hardware system architecure is as follows:
+![Final System Hardware Architecture](images/FinalHardwareSystemArchitecture.png)
 
 # 2. Running the Project
 
@@ -135,10 +136,12 @@ Use the following steps to flash your microcontroller:
 1. Download the Driver folder associated with the microcontroller you’re flashing.
 2. Open **STM32CubeIDE**.
 3. Click the blue **Create/Import STM32 Project** button.
+![FSTM32CubeIDE Landing Page](images/ImportButton.png)
 4. Select **STM32CubeMX/STM32CubeIDE Project** from the dropdown.
 5. Click **Next**.
 6. Select the downloaded file as the import source.
 7. Click **Finish**.
+![Fitness board interior](images/ImportingFiles.gif)
 
 At this point, the project should be open in your application. Once open, do the following:
 
