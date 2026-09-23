@@ -233,16 +233,19 @@ Lastly, if neither of these two fixes work, you might need to replace your micro
 │   │   ├── main.c              # Main fitness board control loop; reads sensors, computes CoM, wirelessly transmits to maze
 │   │   └── hx711.c             # Driver for HX711 load cell amplifiers
 │   └── inc
-│       ├── main.h
-│       └── hx711.h
+│   |   ├── main.h
+│   |    └── hx711.h
+|   |___ FitnessBoard.ioc       #Configuration file for board side microcontroller
+|
 └── Maze/
     ├── src
     │   ├── main.c              # Maze state machine control logic, manages motor control, timer, and wireless communication
     │   └── MAX7219Driver.c     # Driver for MAX7219 4×8×8 LED matrix display controller
     └── inc
-        ├── main.h
-        ├── MAX7219Driver.h
-        └── audio.h             # Stores the audio files for sound cues for game
+    |    ├── main.h
+    |    ├── MAX7219Driver.h
+    |    └── audio.h             # Stores the audio files for sound cues for game
+    |___ Labyrinth.ioc           #Configuration file for laybrinth side microcontroller
 ```
 
 # 8. Acknowledgements
