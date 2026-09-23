@@ -141,6 +141,7 @@ Use the following steps to flash your microcontroller:
 5. Click **Next**.
 6. Select the downloaded file as the import source.
 7. Click **Finish**.
+
 ![FImport files](images/ImportingFiles.gif)
 
 At this point, the project should be open in your application. Once open, do the following:
@@ -152,6 +153,8 @@ At this point, the project should be open in your application. Once open, do the
 5. Click **Run** from the menu bar.
 6. Click **Run As** and select **STM32 [your microcontroller] C/C++ Application**.
 7. Disconnect your microcontroller.
+
+![Build an Run](images/Build&Run.gif)
 
 Congratulations, your microcontroller is now flashed! As long as your microcontroller is powered, it will run the code you just flashed to it. For this project, we used a phone charger to power the microcontrollers, but other power options exist.
 
@@ -168,6 +171,8 @@ Use the following steps to tare the fitness board:
 5. Wait for the maze display to switch to a timer.
 6. Shift your weight slightly to ensure the labyrinth is responsive.
 7. Step off the board and ensure **"TARE"** is shown again.
+   
+![FTare Examples](images/TAREExample.jpg)
 
 Congratulations, your fitness board and labyrinth are now tared and connected. The system can now be used at will so long as it remains consistently powered. If it loses power, repeat this process before use.
 
@@ -181,7 +186,7 @@ Congratulations, your fitness board and labyrinth are now tared and connected. T
 
 # 4. How to Play
 
-1. Once tared, slowly step onto the fitness board.
+1. Once [tared](#22-taring-the-fitness-board), slowly step onto the fitness board.
 2. Slowly shift your bodyweight to guide the marble to the finishing position.
 3. Step off the board, retrieve the marble from the finishing position, and view your time.
 
@@ -189,13 +194,13 @@ Congratulations, your fitness board and labyrinth are now tared and connected. T
 
 This section serves to highlight how the fitness board and maze interact at a software level, with a specific emphasis placed on the maze side control logic.
 
-## 5.1 High Level System Overview
+## 5.1 High Level Software System Overview
 
-The original document includes a high-level system overview diagram in this section.
+![software overview](images/SystemSoftwareArchitecutre.png)
 
 ## 5.2 Labyrinth Control Flow
 
-The original document includes a labyrinth control flow diagram in this section.
+![Maze state contorl](images/MazeStateControlDiagram.png)
 
 # 6. Frequently Asked Questions (FAQs)
 
