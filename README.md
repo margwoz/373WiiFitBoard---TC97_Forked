@@ -86,7 +86,7 @@ The required connections are:
 For specific information regarding the pins used to connect everything, refer to `FitnessBoard.ioc`.
 
 When finished, the interior of your board should look like this:
-![Fitness board interior](images/Final Wii Fit Board Electronics - Interior.png)
+![Fitness board interior](images/boardInterior.png)
 
 ### 1.2.2 Labyrinth Hardware
 
@@ -114,6 +114,9 @@ The required connections are:
 - 1 × LED matrix display to microcontroller
 
 For specific information regarding the pins used to connect everything, refer to `maze_test.ioc`.
+
+When finished, the your labyrinth should look like this:
+![Fitness board interior](images/AnnotatedMazeSetup.png)
 
 ### 1.2.3 Hardware System Architecture
 
