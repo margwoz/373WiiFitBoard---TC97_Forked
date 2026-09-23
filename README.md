@@ -245,7 +245,7 @@ Lastly, if neither of these two fixes work, you might need to replace your micro
     |    ├── main.h
     |    ├── MAX7219Driver.h
     |    └── audio.h             # Stores the audio files for sound cues for game
-    |___ Labyrinth.ioc           #Configuration file for laybrinth side microcontroller
+    |___ maze_test.ioc           #Configuration file for laybrinth side microcontroller
 ```
 
 # 8. Acknowledgements
