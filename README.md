@@ -141,7 +141,7 @@ Use the following steps to flash your microcontroller:
 5. Click **Next**.
 6. Select the downloaded file as the import source.
 7. Click **Finish**.
-![Fitness board interior](images/ImportingFiles.gif)
+![FImport files](images/ImportingFiles.gif)
 
 At this point, the project should be open in your application. Once open, do the following:
 
