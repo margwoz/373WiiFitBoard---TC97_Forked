@@ -86,7 +86,7 @@ The required connections are:
 For specific information regarding the pins used to connect everything, refer to `FitnessBoard.ioc`.
 
 When finished, the interior of your board should look like this:
-![Fitness board interior]()
+![Fitness board interior](images/Final Wii Fit Board Electronics - Interior.png)
 
 ### 1.2.2 Labyrinth Hardware
 
